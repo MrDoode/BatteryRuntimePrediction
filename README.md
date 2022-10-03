@@ -83,4 +83,8 @@ Wie zusehen, scheint der Inhalt mit denen aus der Encodierten Datei übereinzust
 Quellcode ist in dem Ordner `./ExpandBatteryDataFile` zusehen.
 Hier sind nur die Datenpunkte des Letzten Statuses, also die Daten seit dem Aufladen.
 
-
+In `./BatteryLifetimePrediction` ist nun der Quellcode meines Prognose Programms Hinterlegt.
+Die Datei `./BatLog` Gibt die Minütliche Debug Ausgabe des Programms in der Ersten Spalte ist das errechnete Resultat (in Minuten), die Zweite Spalte gibt die Notwendigkeit an ob die Daten Bereinigt werden sollen (Nach Änderung des zustands - Ladend, endladend oder Voll - Werden die Daten des vorherigen Zustands gelöscht)
+Die Dritte spalte zeigt den Momentanen Zustand ( -1: Entladend, 0 Voll (oder Leer), 1 Ladend).
+Spalte Vier zeigt die errechnete Geradengleichung.
+ 

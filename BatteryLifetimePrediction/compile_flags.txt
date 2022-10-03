@@ -1,0 +1,4 @@
+-I/home/janosch/Scripts/cpp/Erste_Versuche/BatteryLifetimePrediction
+-DNDEBUG
+-target
+x86_64-pc-linux-gnu
